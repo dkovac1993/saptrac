@@ -1,0 +1,14 @@
+{
+  "name": "saptrac",
+  "version": "1.0.0",
+  "description": "Simple Application for SAP Transaction Codes!",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "David Kovac",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^19.0.4"
+  }
+}
