@@ -5,6 +5,8 @@ Anwendung zum schnellen Nachschlagen von (den wichtigsten) SAP Transaktionscodes
 let transCodes = { } erweitern
 
 Beispiel:
+
+```
 let transCodes = {
   su01: {
     title: 'Benutzerpflege', 
@@ -19,6 +21,7 @@ let transCodes = {
     code: 'beispiel2'
   }
 }
+```
 
 # Anwendung erstellen
 npx electron-builder build --win portable
