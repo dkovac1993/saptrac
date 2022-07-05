@@ -6,37 +6,53 @@ window.addEventListener('DOMContentLoaded', () => {
     const transActionWindow = '/o';
 
     let transCodes = {
-        se11: {
+        'se11': {
             title: 'ABAP Dictionary Pflege', 
             code: 'se11'
         },
-        se16: {
+        'se16': {
             title: 'Data Browser', 
             code: 'se16'
         },
-        se16h: {
-            title: 'Data Browser - H', 
-            code: 'se16h'
-        },
-        se16n: {
-            title: 'Data Browser - N', 
-            code: 'se16n'
-        },
-        se38: {
+        'se38': {
             title: 'ABAP Editor', 
             code: 'se38'
         },
-        se80: {
+        'se80': {
             title: 'Object Navigator', 
             code: 'se80'
         },
-        se93: {
+        'se93': {
             title: 'Transaktionspflege', 
             code: 'se93'
         },
-        su01: {
+        'sfp': {
+            title: 'Form Builder',
+            code: 'sfp'
+        },
+        'pfcg': {
+            title: 'Rollenpflege', 
+            code: 'pfcg'
+        },
+        'su01': {
             title: 'Benutzerpflege', 
             code: 'su01'
+        },
+        'segw': {
+            title: 'Gateway Service', 
+            code: 'segw'
+        },
+        'sicf': {
+            title: 'Pflege der Services', 
+            code: 'sicf'
+        },
+        '/ui2/flpcm_conf': {
+            title: 'Launchpad Content Manager', 
+            code: '/ui2/flpcm_conf'
+        },
+        '/IWFND/MAINT_SERVICE': {
+            title: 'Service aktivieren und verwalten', 
+            code: '/IWFND/MAINT_SERVICE'
         }
     }
 
