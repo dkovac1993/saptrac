@@ -1,27 +1,31 @@
 # SAPTRAC
-Anwendung zum schnellen Nachschlagen von (den wichtigsten) SAP Transaktionscodes!
+Application for quickly looking up (the most important) SAP transaction codes!
 
-# Liste erweitern (preload.js)
-let transCodes = { } erweitern
+Expanding the List (preload.js)
 
-Beispiel:
+Extend let transCodes = { }
+
+# Expanding the List (preload.js)
+Extend ```let transCodes = { }```
+
+Example:
 
 ```
 let transCodes = {
   su01: {
-    title: 'Benutzerpflege', 
+    title: 'User Maintenance', 
     code: 'su01'
   },
   example1: {
-    title: 'Beispiel 1',
-    code: 'beispiel1'
+    title: 'Example 1',
+    code: 'example1'
   },
   example2: {
-    title: 'Beispiel 2',
-    code: 'beispiel2'
+    title: 'Example 2',
+    code: 'example2'
   }
 }
 ```
 
-# Anwendung erstellen
+# Building the Application
 npx electron-builder build --win portable
