@@ -1,5 +1,5 @@
 # SAPTRAC
-Application for quickly looking up (the most important) SAP transaction codes!
+Application for quickly looking up (the most important) SAP transaction codes.
 
 Expanding the List (preload.js)
 
